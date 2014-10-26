@@ -1,0 +1,26 @@
+<resources>
+    <!-- inherit from the material theme -->
+    <style name="AppTheme" parent="android:Theme.Holo">
+
+    </style>
+    <style name="text_view_nazwa_lekcji">
+       <item name="android:textSize">@dimen/text_size_nazwa_lekcji</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_weight">0.3</item>
+    </style>
+    <style name="text_view_nr_sali">
+        <item name="android:height">@dimen/height</item>
+        <item name="android:textSize">@dimen/text_size_nr_sali</item>
+        <item name="android:layout_gravity">right|center</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_weight">0.3</item>
+    </style>
+    <style name="text_view_nr_lekcji">
+        <item name="android:textSize">@dimen/text_size_nr_lekcji</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_weight">0.3</item>
+    </style>
+</resources>

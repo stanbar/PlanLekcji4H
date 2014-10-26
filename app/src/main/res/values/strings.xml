@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Plan Lekcji</string>
+    <string name="title_section1">Pon</string>
+    <string name="title_section2">Wt</string>
+    <string name="title_section3">Śr</string>
+    <string name="title_section4">Czw</string>
+    <string name="title_section5">Pt</string>
+    <string name="title_section6">Menu</string>
+    <string name="action_settings">Golf IV 2.0 ZDR LPG</string>
+    <string name="action_oceny">Oceny</string>
+    <string name="action_frekwencja">Frekfencja</string>
+    <string name="matematyka">Matematyka</string>
+    <string name="action_terminarz">Terminarz</string>
+    <string name="action_zastepstwa">Zastępstwa</string>
+
+
+</resources>

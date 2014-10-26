@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/DzienWpisu"
+        android:textSize="20sp"
+        android:layout_width="50sp"
+        android:layout_height="fill_parent"
+        android:text="Day"
+        android:padding="5dp"
+        android:textColor="#FFFFFF"
+        android:background="#1a237e"/>
+    <TextView
+        android:padding="5dp"
+        android:background="#880e4f"
+        android:id="@+id/tvName"
+        android:textSize="20sp"
+        android:layout_width="150sp"
+        android:layout_height="fill_parent"
+        android:text="Name" />
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/tvHome"
+        android:background="#4a148c"
+        android:textSize="20sp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="HomeTown" />
+</LinearLayout>

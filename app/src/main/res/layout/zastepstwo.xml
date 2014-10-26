@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:paddingRight="16dp"
+    android:paddingLeft="6dp"
+    android:paddingTop="10dp">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvKlasa"
+            android:textSize="20sp"
+            android:layout_width="40sp"
+            android:layout_height="fill_parent"
+            android:text="4H"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:background="#1a237e"
+            android:layout_weight="1"/>
+        <TextView
+            android:background="#880e4f"
+            android:id="@+id/tvLekcjaPlanowana"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Lekcja Planowana"
+            android:layout_weight="5"/>
+        <TextView
+            android:background="#4a148c"
+        android:id="@+id/tvNauczycielNieobecny"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:text="Nauczyciel Nieobecny"
+        android:layout_weight="4"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="#FFFFFF"
+            android:background="#1a237e"
+            android:id="@+id/tvGodzinaLekcyjna"
+            android:textSize="20sp"
+            android:layout_width="40sp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="9"
+            android:layout_weight="1"/>
+        <TextView
+            android:background="#880e4f"
+            android:id="@+id/tvLekcjaZamieniona"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Lekcja Zamieniona"
+            android:layout_weight="4"/>
+        <TextView
+            android:background="#4a148c"
+            android:id="@+id/tvNauczycielZastepujacy"
+            android:textSize="20sp"
+            android:layout_width="150sp"
+            android:layout_height="fill_parent"
+            android:text="Nauczyciel Zastepujacy"
+            android:layout_weight="5"/>
+
+    </LinearLayout>
+
+</LinearLayout>

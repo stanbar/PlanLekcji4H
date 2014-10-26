@@ -1,0 +1,9 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">12sp</dimen>
+    <dimen name="activity_vertical_margin">12sp</dimen>
+    <dimen name="text_size_nazwa_lekcji">20sp</dimen>
+    <dimen name="text_size_nr_sali">20sp</dimen>
+    <dimen name="text_size_nr_lekcji">15sp</dimen>
+
+</resources>

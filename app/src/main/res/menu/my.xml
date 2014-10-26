@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MyActivity" >
+    <item android:id="@+id/action_about"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_about"
+        android:showAsAction="never" />
+    <item android:id="@+id/action_uliczna_rada"
+        android:title="Uliczna Rada"
+        android:orderInCategory="10"
+        android:showAsAction="never" />
+    <item android:id="@+id/ustawienia"
+        android:icon="@drawable/ic_action_settings"
+        android:title="Ustawienia"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_oceny"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_menu_star"
+        android:orderInCategory="110"
+        android:title="@string/action_oceny" />
+    <item
+        android:id="@+id/action_frekwencja"
+        android:showAsAction="ifRoom"
+        android:orderInCategory="120"
+        android:icon="@drawable/ic_menu_clear_playlist"
+        android:title="@string/action_frekwencja" />
+    <item
+        android:id="@+id/action_terminarz"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_go_to_today"
+        android:orderInCategory="90"
+        android:title="@string/action_terminarz" />
+    <item
+        android:id="@+id/action_zastepstwa"
+        android:icon="@drawable/ic_menu_blocked_user"
+        android:showAsAction="ifRoom"
+        android:orderInCategory="80"
+        android:title="@string/action_zastepstwa" />
+</menu>

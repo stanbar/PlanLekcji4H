@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Ogólne">
+        <CheckBoxPreference
+            android:title="Filtr Terminarza"
+            android:defaultValue="flase"
+            android:key="filtrTerminarza"
+            android:summary="Filtruj wpisy z minionych dni"/>
+        <CheckBoxPreference
+            android:title="Filtr Klasy"
+            android:defaultValue="flase"
+            android:key="filtr"
+            android:summary="Filtruj klasy w zastepstwach"/>
+        <ListPreference
+            android:dialogTitle="Wybierz klase"
+            android:title="Klasa"
+            android:key="klasa"
+            android:entries="@array/klasy"
+            android:summary="Wybierz Klase"
+            android:entryValues="@array/wartosciKlasy"
+            android:defaultValue="4H"/>
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Dzwięki">
+    <CheckBoxPreference
+        android:title="Muzyka"
+        android:defaultValue="true"
+        android:key="checkbox"
+        android:summary="Dzwieki w aplikacji"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Powiadomienia">
+        <CheckBoxPreference
+            android:title="Powiadomienia"
+            android:defaultValue="true"
+            android:key="notification"
+            android:summary="Powiadomienia o nastepnej lekcji w pasku statusu"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,253 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MyActivity$PlaceholderFragment"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView"
+    android:background="#6a1b9a">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/grid">
+
+        <TableRow
+            android:background="#e1bee7"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:text="0\n 7.20-8.05"
+                style="@style/text_view_nr_lekcji"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:text=""
+                style="@style/text_view_nazwa_lekcji"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:text=""
+                style="@style/text_view_nr_sali" />
+        </TableRow>
+
+
+        <TableRow
+            android:background="#ce93d8"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:text="1\n 8.15-9.00"
+        style="@style/text_view_nr_lekcji"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:text="J. ANGIELSKI"
+        style="@style/text_view_nazwa_lekcji"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:text="228\n313"
+        style="@style/text_view_nr_sali"/>
+        </TableRow>
+
+
+
+        <TableRow
+            android:background="#ba68c8"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:text="2\n 9.10-9.55"
+        style="@style/text_view_nr_lekcji"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:text="HISTORIA"
+        style="@style/text_view_nazwa_lekcji"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:text="8"
+        style="@style/text_view_nr_sali"/>
+        </TableRow>
+
+
+
+        <TableRow
+            android:background="#ab47bc"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:text="3\n 10.05-10.50"
+        style="@style/text_view_nr_lekcji"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:text="FIZYKA"
+        style="@style/text_view_nazwa_lekcji"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12"
+        android:text="112"
+        style="@style/text_view_nr_sali"/>
+        </TableRow>
+
+
+
+        <TableRow
+            android:background="#9c27b0"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView13"
+        android:text="4\n 11:00-11:45"
+        style="@style/text_view_nr_lekcji"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView14"
+        android:text="          GW\n J. NIEMIECKI"
+        style="@style/text_view_nazwa_lekcji"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView15"
+        android:text="     6\n 31,19"
+        style="@style/text_view_nr_sali"/>
+        </TableRow>
+
+
+
+        <TableRow
+            android:background="#8e24aa"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16"
+        android:text="5\n 12:05-12:50"
+        style="@style/text_view_nr_lekcji"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView17"
+        android:text="WF"
+        style="@style/text_view_nazwa_lekcji"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView18"
+        android:text=""
+        style="@style/text_view_nr_sali"/>
+        </TableRow>
+
+
+
+        <TableRow
+            android:background="#7b1fa2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView19"
+        android:text="6\n 13:00-13:45"
+        style="@style/text_view_nr_lekcji"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView20"
+        android:text="J. ANGIELSKI\n ZAWODOWY"
+        style="@style/text_view_nazwa_lekcji"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView21"
+        android:text="228\n 313"
+        style="@style/text_view_nr_sali"/>
+        </TableRow>
+
+
+
+        <TableRow
+            android:background="#6a1b9a"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView22"
+        android:text="7\n 13:55-14:40"
+        style="@style/text_view_nr_lekcji"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView23"
+        android:text="RELIGIA"
+        style="@style/text_view_nazwa_lekcji"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView24"
+        android:text="119"
+        style="@style/text_view_nr_sali"/>
+        </TableRow>
+
+
+
+
+    </TableLayout>
+</ScrollView>
+
